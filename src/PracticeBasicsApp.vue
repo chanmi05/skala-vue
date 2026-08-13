@@ -21,6 +21,8 @@ import ModelBasic from './components/practices/basic/ModelBasic.vue'
 import ModelForm from './components/practices/basic/ModelForm.vue'
 import ModelModifier from './components/practices/basic/ModelModifier.vue'
 import StyleScoped from './components/practices/basic/StyleScoped.vue'
+import ReactiveRef from './components/practices/composition/ReactiveRef.vue'
+import ReactiveReactive from './components/practices/composition/ReactiveReactive.vue'
 </script>
 
 <!-- 템플릿 : 화면에 갖다 붙임. -->
@@ -59,6 +61,10 @@ import StyleScoped from './components/practices/basic/StyleScoped.vue'
     <h1>5. Vue Style Handling</h1>
     <hr />
     <StyleScoped />
+    <h1>6. Reactive State</h1>
+    <hr />
+    <ReactiveRef />
+    <ReactiveReactive />
   </div>
 </template>
 

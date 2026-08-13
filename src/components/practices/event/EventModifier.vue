@@ -8,7 +8,7 @@ const handleBox = () => {
 const handleChild1 = () => {
   alert('자식1 박스가 클릭되었습니다!')
 }
-const handleChild2 = (e) => {
+const handleChild2 = () => {
   alert('자식2 박스가 클릭되었습니다!(나만 켜짐)')
 }
 </script>
